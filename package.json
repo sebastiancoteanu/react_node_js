@@ -1,0 +1,27 @@
+{
+  "name": "react_node_js",
+  "version": "1.0.0",
+  "description": "Udemy tutorial path with React and Node",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.3",
+    "npm": "5.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastiancoteanu/react_node_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastiancoteanu/react_node_js/issues"
+  },
+  "homepage": "https://github.com/sebastiancoteanu/react_node_js#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

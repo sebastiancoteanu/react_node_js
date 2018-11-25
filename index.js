@@ -18,7 +18,9 @@ app.use(
     })
 );
 app.use(passport.initialize());
-app.use(passport.session());
+app.use(passport.session(
+
+));
 
 mongoose.connect(keys.mongoURI, { useNewUrlParser: true });
 
